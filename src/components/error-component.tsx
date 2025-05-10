@@ -1,5 +1,5 @@
-export default function ErrorComponent({ error }: { error: unknown }) {
-  console.error('ErrorComponent', error)
+export function ErrorComponent({ error }: { error: unknown }) {
+  console.error('ErrorComponent', error);
 
-  return <div>ErrorComponent</div>
+  return <div>ErrorComponent</div>;
 }

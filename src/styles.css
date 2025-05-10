@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@config "../tailwind.config.ts";
+
 body {
   @apply m-0;
   font-family:
